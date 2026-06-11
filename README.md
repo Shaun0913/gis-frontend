@@ -27,3 +27,6 @@ pnpm run dev
 - 使用 ref 绑定容器，避免ID冲突
 - 增加参数校验与异常捕获
 - 完善地图销毁逻辑
+
+# 演示PR提交
+用于练习GitHub Pull Request流程
