@@ -1,5 +1,24 @@
-# Vue 3 + Vite
+# Vue3 + Leaflet 地图演示项目
+基于 Vue3 + script setup + Leaflet 实现 Web 地图功能。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 技术栈
+- Vue 3 + Vite
+- Leaflet 地图框架
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 功能介绍
+1. 地图初始化，使用国内高德瓦片服务
+2. 支持外部切换地图中心点
+3. 支持添加点位标记与弹窗
+4. 组件完整销毁，防止内存泄漏
+
+## 运行方式
+1. 安装依赖
+pnpm install
+
+2. 启动项目
+pnpm run dev
+
+## 优化点
+- 使用 ref 绑定容器，避免ID冲突
+- 增加参数校验与异常捕获
+- 完善地图销毁逻辑
